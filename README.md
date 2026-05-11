@@ -18,6 +18,19 @@ Braindump is a local-first, privacy-centered thought capture and weekly reflecti
 - **iOS background execution:** BGTaskScheduler
 - **Notifications:** local notifications via UNUserNotificationCenter
 
+
+## Current Implementation
+
+This repository now contains a runnable Flutter MVP shell for iOS-first testing:
+
+- Calm home screen with text capture and a voice-capture placeholder.
+- Local Markdown persistence for thoughts under the app support directory.
+- Thought feed with lifecycle status updates.
+- Local weekly-review generation and Markdown persistence.
+- Unit tests for Markdown serialization, repository persistence, audio cleanup, and weekly-review generation.
+
+See [`docs/iphone-testing.md`](docs/iphone-testing.md) for step-by-step instructions to run the app on your own iPhone.
+
 ## MVP Roadmap
 
 1. Core capture: text input, Markdown storage, and feed view.
